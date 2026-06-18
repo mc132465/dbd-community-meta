@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Abandoned Sawmill",
+    "slug": "abandoned-sawmill",
+    "realm": "Hollow Reaches",
+    "image_url": null,
+    "source": "placeholder",
+    "external_id": "ph-map-001"
+  },
+  {
+    "name": "Drowned Estate",
+    "slug": "drowned-estate",
+    "realm": "Mire Hollow",
+    "image_url": null,
+    "source": "placeholder",
+    "external_id": "ph-map-002"
+  }
+]

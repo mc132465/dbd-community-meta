@@ -1,0 +1,18 @@
+[
+  {
+    "version": "1.0.0",
+    "name": "Launch (Sample)",
+    "released_at": "2024-01-01",
+    "notes": "Placeholder launch patch for development. Not real game data.",
+    "source": "placeholder",
+    "external_id": "ph-patch-100"
+  },
+  {
+    "version": "1.1.0",
+    "name": "Sample Update",
+    "released_at": "2024-03-01",
+    "notes": "Placeholder follow-up patch for development.",
+    "source": "placeholder",
+    "external_id": "ph-patch-110"
+  }
+]

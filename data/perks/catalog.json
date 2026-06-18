@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "source": "dbd-universal-perk-seed",
+    "note": "Canonical universal/general KILLER perks that are not tied to a specific character and are therefore absent from data/characters/catalog.json. These exist independently of any icon pack so Discovery and Tier Lists always resolve them. Slugs are the canonical join key; the asset importer attaches icons to these by slug. role is always 'killer'; origin_character_id is null; is_teachable is false. Survivor and a full perk catalog are deferred (Option 2)."
+  },
+  "perks": [
+    {
+      "name": "Whispers",
+      "slug": "whispers",
+      "role": "killer"
+    },
+    {
+      "name": "Insidious",
+      "slug": "insidious",
+      "role": "killer"
+    },
+    {
+      "name": "Iron Grasp",
+      "slug": "iron-grasp",
+      "role": "killer"
+    },
+    {
+      "name": "Bitter Murmur",
+      "slug": "bitter-murmur",
+      "role": "killer"
+    },
+    {
+      "name": "Deerstalker",
+      "slug": "deerstalker",
+      "role": "killer"
+    },
+    {
+      "name": "Distressing",
+      "slug": "distressing",
+      "role": "killer"
+    },
+    {
+      "name": "Unrelenting",
+      "slug": "unrelenting",
+      "role": "killer"
+    },
+    {
+      "name": "Spies from the Shadows",
+      "slug": "spies-from-the-shadows",
+      "role": "killer"
+    },
+    {
+      "name": "Territorial Imperative",
+      "slug": "territorial-imperative",
+      "role": "killer"
+    },
+    {
+      "name": "Hex: No One Escapes Death",
+      "slug": "hex-no-one-escapes-death",
+      "role": "killer"
+    },
+    {
+      "name": "Sloppy Butcher",
+      "slug": "sloppy-butcher",
+      "role": "killer"
+    },
+    {
+      "name": "Scourge Hook: Monstrous Shrine",
+      "slug": "scourge-hook-monstrous-shrine",
+      "role": "killer"
+    },
+    {
+      "name": "Shattered Hope",
+      "slug": "shattered-hope",
+      "role": "killer"
+    },
+    {
+      "name": "Hex: Thrill of the Hunt",
+      "slug": "hex-thrill-of-the-hunt",
+      "role": "killer"
+    }
+  ]
+}

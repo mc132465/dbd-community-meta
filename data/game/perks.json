@@ -1,0 +1,68 @@
+[
+  {
+    "role": "killer",
+    "name": "Grim Pursuit",
+    "slug": "grim-pursuit",
+    "description": "Placeholder perk description. Sample content for development.",
+    "icon_url": null,
+    "origin_character_slug": "the-hollow",
+    "is_teachable": true,
+    "source": "placeholder",
+    "external_id": "ph-perk-k001"
+  },
+  {
+    "role": "killer",
+    "name": "Warded Ground",
+    "slug": "warded-ground",
+    "description": "Placeholder perk description. Sample content for development.",
+    "icon_url": null,
+    "origin_character_slug": "the-warden",
+    "is_teachable": true,
+    "source": "placeholder",
+    "external_id": "ph-perk-k002"
+  },
+  {
+    "role": "killer",
+    "name": "Relentless Watch",
+    "slug": "relentless-watch",
+    "description": "Placeholder general perk with no origin character.",
+    "icon_url": null,
+    "origin_character_slug": null,
+    "is_teachable": false,
+    "source": "placeholder",
+    "external_id": "ph-perk-k003"
+  },
+  {
+    "role": "survivor",
+    "name": "Steady Nerves",
+    "slug": "steady-nerves",
+    "description": "Placeholder perk description. Sample content for development.",
+    "icon_url": null,
+    "origin_character_slug": "mara-vex",
+    "is_teachable": true,
+    "source": "placeholder",
+    "external_id": "ph-perk-s001"
+  },
+  {
+    "role": "survivor",
+    "name": "Quick Patch",
+    "slug": "quick-patch",
+    "description": "Placeholder perk description. Sample content for development.",
+    "icon_url": null,
+    "origin_character_slug": "tomas-reed",
+    "is_teachable": true,
+    "source": "placeholder",
+    "external_id": "ph-perk-s002"
+  },
+  {
+    "role": "survivor",
+    "name": "Fleeting Hope",
+    "slug": "fleeting-hope",
+    "description": "Placeholder general perk with no origin character.",
+    "icon_url": null,
+    "origin_character_slug": null,
+    "is_teachable": false,
+    "source": "placeholder",
+    "external_id": "ph-perk-s003"
+  }
+]

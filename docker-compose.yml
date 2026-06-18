@@ -1,0 +1,61 @@
+version: "2.4"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dbd
+      POSTGRES_USER: dbd
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dbd -d dbd"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    # Not published to the host by default. Uncomment to use psql from the host:
+    # ports:
+    #   - "5432:5432"
+
+  app:
+    build:
+      context: .
+      args:
+        # Low-memory build controls (Raspberry Pi). Override per build with
+        # `docker-compose build --build-arg NEXT_STRICT_BUILD=false app`, or set
+        # these in the shell / .env. Defaults keep normal builds strict.
+        NEXT_STRICT_BUILD: ${NEXT_STRICT_BUILD:-true}
+        NODE_BUILD_MEMORY: ${NODE_BUILD_MEMORY:-}
+    image: dbd-community:latest
+    restart: unless-stopped
+    # Startup runs scripts/docker-entrypoint.sh (image CMD): migrate + seed +
+    # import:game + import:characters (idempotent), conditional import:assets,
+    # then starts the server. Set BOOTSTRAP_DEMO=false to skip seed/import.
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://dbd:${POSTGRES_PASSWORD}@postgres:5432/dbd
+      SESSION_SECRET: ${SESSION_SECRET:?set SESSION_SECRET in .env}
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+      BOOTSTRAP_DEMO: ${BOOTSTRAP_DEMO:-true}
+      # false for http://SERVER_IP:3000 ; set true only behind HTTPS.
+      SESSION_COOKIE_SECURE: ${SESSION_COOKIE_SECURE:-false}
+    ports:
+      - "3000:3000"
+    volumes:
+      # Imported icons persist across rebuilds.
+      - assets:/app/public/assets
+      # Source asset packs / uploaded ZIPs, shared with the host so you can drop
+      # files in and so converted packs persist. The Admin → Import page reads
+      # ZIPs and folders from here; uploads are written here too.
+      #   ./data/assets/<your-pack-or-zip>           (raw input)
+      #   ./data/assets/packs/<slug>/<category>/      (converted output)
+      - ./data/assets:/app/data/assets
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  assets:

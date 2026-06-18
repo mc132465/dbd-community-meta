@@ -1,0 +1,31 @@
+# Dependencies / build output (reinstalled/rebuilt in the image)
+node_modules
+.next
+out
+
+# VCS / local
+.git
+.gitignore
+*.log
+npm-debug.log*
+
+# Env & secrets (provided at runtime via compose)
+.env
+.env.local
+.env.*.local
+
+# Large icon pack — provide at runtime (bind mount or `docker compose cp`),
+# don't bake it into the image. The JSON under data/game and data/characters
+# IS kept (needed by import:game / import:characters).
+data/assets
+
+# Imported icons (served from a volume at runtime)
+public/assets/*
+!public/assets/.gitkeep
+
+# Editor / packaging artifacts
+.vscode
+.idea
+*.zip
+Dockerfile
+.dockerignore

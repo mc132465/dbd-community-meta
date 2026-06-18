@@ -1,0 +1,1850 @@
+{
+  "_meta": {
+    "note": "BEST-EFFORT seed authored from training knowledge (cutoff Jan 2026), NOT authoritative. Verify against current game data and correct here. Entries with needs_verification:true (and any with empty perks) are uncertain — confirm names/perks/chapters. Perk slugs use the same normalization as the icon importer so they merge with imported icons by slug; acronym icons (e.g. BBQ) may need an overrides entry or a slug fix to link.",
+    "is_teachable": "The importer sets is_teachable=true for every unique perk listed here.",
+    "source": "dbd-catalog-seed"
+  },
+  "characters": [
+    {
+      "role": "killer",
+      "name": "The Trapper",
+      "slug": "the-trapper",
+      "chapter": "Base Game",
+      "description": "Evan MacMillan. Places bear traps to immobilize survivors.",
+      "perks": [
+        {
+          "name": "Unnerving Presence",
+          "slug": "unnerving-presence"
+        },
+        {
+          "name": "Brutal Strength",
+          "slug": "brutal-strength"
+        },
+        {
+          "name": "Agitation",
+          "slug": "agitation"
+        }
+      ],
+      "power_name": "Bear Trap",
+      "power_desc": "Sets concealable bear traps that immobilize Survivors who step in them."
+    },
+    {
+      "role": "killer",
+      "name": "The Wraith",
+      "slug": "the-wraith",
+      "chapter": "Base Game",
+      "description": "Philip Ojomo. Cloaks to move undetected.",
+      "perks": [
+        {
+          "name": "Predator",
+          "slug": "predator"
+        },
+        {
+          "name": "Bloodhound",
+          "slug": "bloodhound"
+        },
+        {
+          "name": "Shadowborn",
+          "slug": "shadowborn"
+        }
+      ],
+      "power_name": "Wailing Bell",
+      "power_desc": "Rings a bell to cloak into near-invisibility, uncloaking for a speed burst."
+    },
+    {
+      "role": "killer",
+      "name": "The Hillbilly",
+      "slug": "the-hillbilly",
+      "chapter": "Base Game",
+      "description": "Max Thompson Jr. Sprints across the map with a chainsaw.",
+      "perks": [
+        {
+          "name": "Enduring",
+          "slug": "enduring"
+        },
+        {
+          "name": "Lightborn",
+          "slug": "lightborn"
+        },
+        {
+          "name": "Tinkerer",
+          "slug": "tinkerer"
+        }
+      ],
+      "power_name": "Chainsaw",
+      "power_desc": "Revs a chainsaw for a high-speed sprint that downs Survivors instantly."
+    },
+    {
+      "role": "killer",
+      "name": "The Nurse",
+      "slug": "the-nurse",
+      "chapter": "The Last Breath",
+      "description": "Sally Smithson. Blinks through obstacles.",
+      "perks": [
+        {
+          "name": "Stridor",
+          "slug": "stridor"
+        },
+        {
+          "name": "Thanatophobia",
+          "slug": "thanatophobia"
+        },
+        {
+          "name": "A Nurse's Calling",
+          "slug": "a-nurses-calling"
+        }
+      ],
+      "power_name": "Spencer's Last Breath",
+      "power_desc": "Blinks through walls and obstacles to teleport toward Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Shape",
+      "slug": "the-shape",
+      "chapter": "Halloween",
+      "description": "Michael Myers. Stalks to build lethal Evil Within.",
+      "perks": [
+        {
+          "name": "Save the Best for Last",
+          "slug": "save-the-best-for-last"
+        },
+        {
+          "name": "Play with Your Food",
+          "slug": "play-with-your-food"
+        },
+        {
+          "name": "Dying Light",
+          "slug": "dying-light"
+        }
+      ],
+      "power_name": "Evil Within",
+      "power_desc": "Stalks Survivors to grow Evil Within, increasing lethality."
+    },
+    {
+      "role": "killer",
+      "name": "The Hag",
+      "slug": "the-hag",
+      "chapter": "Of Flesh and Mud",
+      "description": "Lisa Sherwood. Sets phantasm traps to teleport.",
+      "perks": [
+        {
+          "name": "Hex: The Third Seal",
+          "slug": "hex-the-third-seal"
+        },
+        {
+          "name": "Hex: Ruin",
+          "slug": "hex-ruin"
+        },
+        {
+          "name": "Hex: Devour Hope",
+          "slug": "hex-devour-hope"
+        }
+      ],
+      "power_name": "Blackened Catalyst",
+      "power_desc": "Draws mud phantasm traps that teleport her to triggered Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Doctor",
+      "slug": "the-doctor",
+      "chapter": "Spark of Madness",
+      "description": "Herman Carter. Induces madness with shock therapy.",
+      "perks": [
+        {
+          "name": "Overwhelming Presence",
+          "slug": "overwhelming-presence"
+        },
+        {
+          "name": "Monitor & Abuse",
+          "slug": "monitor-abuse"
+        },
+        {
+          "name": "Overcharge",
+          "slug": "overcharge"
+        }
+      ],
+      "power_name": "Carter's Spark",
+      "power_desc": "Shocks Survivors to inflict Madness, revealing them and disrupting actions."
+    },
+    {
+      "role": "killer",
+      "name": "The Huntress",
+      "slug": "the-huntress",
+      "chapter": "A Lullaby for the Dark",
+      "description": "Anna. Throws hatchets at range.",
+      "perks": [
+        {
+          "name": "Beast of Prey",
+          "slug": "beast-of-prey"
+        },
+        {
+          "name": "Territorial Imprint",
+          "slug": "territorial-imprint"
+        },
+        {
+          "name": "Hex: Huntress Lullaby",
+          "slug": "hex-huntress-lullaby"
+        }
+      ],
+      "power_name": "Hunting Hatchets",
+      "power_desc": "Throws hatchets at range to injure or down Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Cannibal",
+      "slug": "the-cannibal",
+      "chapter": "Leatherface",
+      "description": "Bubba Sawyer. Revs a chainsaw for sweeping hits.",
+      "perks": [
+        {
+          "name": "Knock Out",
+          "slug": "knock-out"
+        },
+        {
+          "name": "Barbecue & Chilli",
+          "slug": "barbecue-chilli"
+        },
+        {
+          "name": "Franklin's Demise",
+          "slug": "franklins-demise"
+        }
+      ],
+      "power_name": "Bubba's Chainsaw",
+      "power_desc": "Sweeps a chainsaw to hit multiple Survivors at once."
+    },
+    {
+      "role": "killer",
+      "name": "The Nightmare",
+      "slug": "the-nightmare",
+      "chapter": "A Nightmare on Elm Street",
+      "description": "Freddy Krueger. Pulls survivors into the dream world.",
+      "perks": [
+        {
+          "name": "Fire Up",
+          "slug": "fire-up"
+        },
+        {
+          "name": "Remember Me",
+          "slug": "remember-me"
+        },
+        {
+          "name": "Blood Warden",
+          "slug": "blood-warden"
+        }
+      ],
+      "power_name": "Dream Demon",
+      "power_desc": "Pulls Survivors into the dream world to ambush them."
+    },
+    {
+      "role": "killer",
+      "name": "The Pig",
+      "slug": "the-pig",
+      "chapter": "The Saw Chapter",
+      "description": "Amanda Young. Ambushes and applies reverse bear traps.",
+      "perks": [
+        {
+          "name": "Scourge Hook: Hangman's Trick",
+          "slug": "hangmans-trick"
+        },
+        {
+          "name": "Surveillance",
+          "slug": "surveillance"
+        },
+        {
+          "name": "Make Your Choice",
+          "slug": "make-your-choice"
+        }
+      ],
+      "power_name": "Jigsaw's Baptism",
+      "power_desc": "Ambushes from a crouch and places reverse bear traps on downed Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Clown",
+      "slug": "the-clown",
+      "chapter": "Curtain Call",
+      "description": "Kenneth Chase. Slows survivors with tonic gas.",
+      "perks": [
+        {
+          "name": "Bamboozle",
+          "slug": "bamboozle"
+        },
+        {
+          "name": "Coulrophobia",
+          "slug": "coulrophobia"
+        },
+        {
+          "name": "Pop Goes the Weasel",
+          "slug": "pop-goes-the-weasel"
+        }
+      ],
+      "power_name": "The Afterpiece Tonic",
+      "power_desc": "Throws gas bottles that hinder and obscure Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Spirit",
+      "slug": "the-spirit",
+      "chapter": "Shattered Bloodline",
+      "description": "Rin Yamaoka. Phases unseen across the map.",
+      "perks": [
+        {
+          "name": "Spirit Fury",
+          "slug": "spirit-fury"
+        },
+        {
+          "name": "Hex: Haunted Ground",
+          "slug": "hex-haunted-ground"
+        },
+        {
+          "name": "Rancor",
+          "slug": "rancor"
+        }
+      ],
+      "power_name": "Yamaoka's Haunting",
+      "power_desc": "Phases rapidly while invisible to close distance on Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Legion",
+      "slug": "the-legion",
+      "chapter": "Darkness Among Us",
+      "description": "Frank, Julie, Susie, Joey. Chains hits in Feral Frenzy.",
+      "perks": [
+        {
+          "name": "Discordance",
+          "slug": "discordance"
+        },
+        {
+          "name": "Mad Grit",
+          "slug": "mad-grit"
+        },
+        {
+          "name": "Iron Maiden",
+          "slug": "iron-maiden"
+        }
+      ],
+      "power_name": "Feral Frenzy",
+      "power_desc": "Sprints and vaults in a frenzy to chain-hit Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Plague",
+      "slug": "the-plague",
+      "chapter": "Demise of the Faithful",
+      "description": "Adiris. Infects survivors with Vile Purge.",
+      "perks": [
+        {
+          "name": "Corrupt Intervention",
+          "slug": "corrupt-intervention"
+        },
+        {
+          "name": "Infectious Fright",
+          "slug": "infectious-fright"
+        },
+        {
+          "name": "Dark Devotion",
+          "slug": "dark-devotion"
+        }
+      ],
+      "power_name": "Vile Purge",
+      "power_desc": "Vomits infection that sickens Survivors and fountains."
+    },
+    {
+      "role": "killer",
+      "name": "The Ghost Face",
+      "slug": "the-ghost-face",
+      "chapter": "Ghost Face",
+      "description": "Danny Johnson. Stalks while crouched and undetectable.",
+      "perks": [
+        {
+          "name": "I'm All Ears",
+          "slug": "im-all-ears"
+        },
+        {
+          "name": "Thrilling Tremors",
+          "slug": "thrilling-tremors"
+        },
+        {
+          "name": "Furtive Chase",
+          "slug": "furtive-chase"
+        }
+      ],
+      "power_name": "Night Shroud",
+      "power_desc": "Cloaks and leans to stalk and expose Survivors for one-shot downs."
+    },
+    {
+      "role": "killer",
+      "name": "The Demogorgon",
+      "slug": "the-demogorgon",
+      "chapter": "Stranger Things",
+      "description": "Travels via portals in the Upside Down.",
+      "perks": [
+        {
+          "name": "Surge",
+          "slug": "surge"
+        },
+        {
+          "name": "Mindbreaker",
+          "slug": "mindbreaker"
+        },
+        {
+          "name": "Cruel Limits",
+          "slug": "cruel-limits"
+        }
+      ],
+      "power_name": "Of the Abyss",
+      "power_desc": "Opens portals and lunges with Shred to strike Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Oni",
+      "slug": "the-oni",
+      "chapter": "Cursed Legacy",
+      "description": "Kazan Yamaoka. Absorbs blood to enter a demon rage.",
+      "perks": [
+        {
+          "name": "Zanshin Tactics",
+          "slug": "zanshin-tactics"
+        },
+        {
+          "name": "Nemesis",
+          "slug": "nemesis"
+        },
+        {
+          "name": "Blood Echo",
+          "slug": "blood-echo"
+        }
+      ],
+      "power_name": "Yamaoka's Wrath",
+      "power_desc": "Absorbs blood to enter a demon dash with one-shot club swings."
+    },
+    {
+      "role": "killer",
+      "name": "The Deathslinger",
+      "slug": "the-deathslinger",
+      "chapter": "Chains of Hate",
+      "description": "Caleb Quinn. Spears and reels survivors with a harpoon.",
+      "perks": [
+        {
+          "name": "Gearhead",
+          "slug": "gearhead"
+        },
+        {
+          "name": "Hex: Retribution",
+          "slug": "retribution"
+        },
+        {
+          "name": "Dead Man's Switch",
+          "slug": "dead-mans-switch"
+        }
+      ],
+      "power_name": "The Redeemer",
+      "power_desc": "Fires a speargun to harpoon and reel in Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Executioner",
+      "slug": "the-executioner",
+      "chapter": "Silent Hill",
+      "description": "Pyramid Head. Sends survivors to cages of atonement.",
+      "perks": [
+        {
+          "name": "Forced Penance",
+          "slug": "forced-penance"
+        },
+        {
+          "name": "Trail of Torment",
+          "slug": "trail-of-torment"
+        },
+        {
+          "name": "Deathbound",
+          "slug": "deathbound"
+        }
+      ],
+      "power_name": "Rites of Judgement",
+      "power_desc": "Carves trails that bind Survivors and sends them to cages of atonement."
+    },
+    {
+      "role": "killer",
+      "name": "The Blight",
+      "slug": "the-blight",
+      "chapter": "Descend Beyond",
+      "description": "Talbot Grimes. Rushes and bounces off obstacles.",
+      "perks": [
+        {
+          "name": "Dragon's Grip",
+          "slug": "dragons-grip"
+        },
+        {
+          "name": "Hex: Blood Favor",
+          "slug": "hex-blood-favor"
+        },
+        {
+          "name": "Hex: Undying",
+          "slug": "hex-undying"
+        }
+      ],
+      "power_name": "Blighted Corruption",
+      "power_desc": "Rushes and ricochets off obstacles to slam into Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Twins",
+      "slug": "the-twins",
+      "chapter": "A Binding of Kin",
+      "description": "Charlotte & Victor Deshayes. Detach Victor to hunt.",
+      "perks": [
+        {
+          "name": "Hoarder",
+          "slug": "hoarder"
+        },
+        {
+          "name": "Oppression",
+          "slug": "oppression"
+        },
+        {
+          "name": "Coup de Grâce",
+          "slug": "coup-de-grace"
+        }
+      ],
+      "power_name": "Blood Bond",
+      "power_desc": "Controls Victor to pounce while Charlotte holds position."
+    },
+    {
+      "role": "killer",
+      "name": "The Trickster",
+      "slug": "the-trickster",
+      "chapter": "All-Kill",
+      "description": "Ji-Woon Hak. Throws blades to wound from range.",
+      "perks": [
+        {
+          "name": "Starstruck",
+          "slug": "starstruck"
+        },
+        {
+          "name": "Hex: Crowd Control",
+          "slug": "hex-crowd-control"
+        },
+        {
+          "name": "No Way Out",
+          "slug": "no-way-out"
+        }
+      ],
+      "power_name": "Showstopper",
+      "power_desc": "Throws blades that build Laceration to injure Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Nemesis",
+      "slug": "the-nemesis",
+      "chapter": "Resident Evil",
+      "description": "T-Type. Whips with a tentacle and spawns zombies.",
+      "perks": [
+        {
+          "name": "Lethal Pursuer",
+          "slug": "lethal-pursuer"
+        },
+        {
+          "name": "Hysteria",
+          "slug": "hysteria"
+        },
+        {
+          "name": "Eruption",
+          "slug": "eruption"
+        }
+      ],
+      "power_name": "T-Virus",
+      "power_desc": "Strikes with a tentacle and commands zombies; infects Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Cenobite",
+      "slug": "the-cenobite",
+      "chapter": "Hellraiser",
+      "description": "Pinhead. Summons chains and the Lament Configuration.",
+      "perks": [
+        {
+          "name": "Deadlock",
+          "slug": "deadlock"
+        },
+        {
+          "name": "Hex: Plaything",
+          "slug": "hex-plaything"
+        },
+        {
+          "name": "Scourge Hook: Gift of Pain",
+          "slug": "scourge-hook-gift-of-pain"
+        }
+      ],
+      "power_name": "Summons of Pain",
+      "power_desc": "Throws ranged chains and summons the box to bind Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Artist",
+      "slug": "the-artist",
+      "chapter": "Portrait of a Murder",
+      "description": "Carmina Mora. Commands swarms of crows.",
+      "perks": [
+        {
+          "name": "Grim Embrace",
+          "slug": "grim-embrace"
+        },
+        {
+          "name": "Scourge Hook: Pain Resonance",
+          "slug": "scourge-hook-pain-resonance"
+        },
+        {
+          "name": "Hex: Pentimento",
+          "slug": "hex-pentimento"
+        }
+      ],
+      "power_name": "Birds of Torment",
+      "power_desc": "Sends Dire Crows that injure and reveal Survivors at range."
+    },
+    {
+      "role": "killer",
+      "name": "The Onryō",
+      "slug": "the-onryo",
+      "chapter": "Sadako Rising",
+      "description": "Sadako Yamamura. Manifests from cursed televisions.",
+      "perks": [
+        {
+          "name": "Scourge Hook: Floods of Rage",
+          "slug": "scourge-hook-floods-of-rage"
+        },
+        {
+          "name": "Call of Brine",
+          "slug": "call-of-brine"
+        },
+        {
+          "name": "Merciless Storm",
+          "slug": "merciless-storm"
+        }
+      ],
+      "power_name": "Deluge of Fear",
+      "power_desc": "Teleports via TVs and spreads Condemned through cursed tapes."
+    },
+    {
+      "role": "killer",
+      "name": "The Dredge",
+      "slug": "the-dredge",
+      "chapter": "Roots of Dread",
+      "description": "Teleports between lockers and brings the Nightfall.",
+      "perks": [
+        {
+          "name": "Dissolution",
+          "slug": "dissolution"
+        },
+        {
+          "name": "Darkness Revealed",
+          "slug": "darkness-revealed"
+        },
+        {
+          "name": "Septic Touch",
+          "slug": "septic-touch"
+        }
+      ],
+      "power_name": "Reign of Darkness",
+      "power_desc": "Teleports between lockers and blankets the trial in Nightfall."
+    },
+    {
+      "role": "killer",
+      "name": "The Mastermind",
+      "slug": "the-mastermind",
+      "chapter": "Resident Evil: PROJECT W",
+      "description": "Albert Wesker. Dashes and infects with the Uroboros.",
+      "perks": [
+        {
+          "name": "Superior Anatomy",
+          "slug": "superior-anatomy"
+        },
+        {
+          "name": "Terminus",
+          "slug": "terminus"
+        },
+        {
+          "name": "Awakened Awareness",
+          "slug": "awakened-awareness"
+        }
+      ],
+      "power_name": "Virulent Bound",
+      "power_desc": "Bounds forward to grab and infect Survivors with the Uroboros virus."
+    },
+    {
+      "role": "killer",
+      "name": "The Knight",
+      "slug": "the-knight",
+      "chapter": "Forged in Fog",
+      "needs_verification": true,
+      "description": "Tarhos Kovács. Summons guards to patrol and chase.",
+      "perks": [
+        {
+          "name": "Nowhere to Hide",
+          "slug": "nowhere-to-hide"
+        },
+        {
+          "name": "Hubris",
+          "slug": "hubris"
+        },
+        {
+          "name": "Hex: Face the Darkness",
+          "slug": "hex-face-the-darkness"
+        }
+      ],
+      "power_name": "Guardia Compagnia",
+      "power_desc": "Summons guards to patrol and hunt Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Skull Merchant",
+      "slug": "the-skull-merchant",
+      "chapter": "Tools of Torment",
+      "needs_verification": true,
+      "description": "Adriana Imai. Deploys drones for surveillance and control.",
+      "perks": [
+        {
+          "name": "Game Afoot",
+          "slug": "game-afoot"
+        },
+        {
+          "name": "Leverage",
+          "slug": "leverage"
+        },
+        {
+          "name": "Thwack!",
+          "slug": "thwack"
+        }
+      ],
+      "power_name": "Eyes in the Sky",
+      "power_desc": "Deploys drones that scan and reveal Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Singularity",
+      "slug": "the-singularity",
+      "chapter": "End Transmission",
+      "needs_verification": true,
+      "description": "A biopod-jumping technological horror.",
+      "perks": [
+        {
+          "name": "Machine Learning",
+          "slug": "machine-learning"
+        },
+        {
+          "name": "Genetic Limits",
+          "slug": "genetic-limits"
+        },
+        {
+          "name": "Forced Hesitation",
+          "slug": "forced-hesitation"
+        }
+      ],
+      "power_name": "Quantum Instantiation",
+      "power_desc": "Places biopods to tag Survivors and teleport via Slipstream."
+    },
+    {
+      "role": "killer",
+      "name": "The Xenomorph",
+      "slug": "the-xenomorph",
+      "chapter": "Alien",
+      "needs_verification": true,
+      "description": "Hunts through tunnels and lashes with its tail.",
+      "perks": [
+        {
+          "name": "Ultimate Weapon",
+          "slug": "ultimate-weapon"
+        },
+        {
+          "name": "Rapid Brutality",
+          "slug": "rapid-brutality"
+        },
+        {
+          "name": "Alien Instinct",
+          "slug": "alien-instinct"
+        }
+      ],
+      "power_name": "Stalking Pursuit",
+      "power_desc": "Travels tunnels and strikes with a long-range tail attack."
+    },
+    {
+      "role": "killer",
+      "name": "The Good Guy",
+      "slug": "the-good-guy",
+      "chapter": "Chucky",
+      "needs_verification": true,
+      "description": "Chucky. A small, fast slasher who hides and dashes.",
+      "perks": [
+        {
+          "name": "Hex: Two Can Play",
+          "slug": "hex-two-can-play"
+        },
+        {
+          "name": "Friends 'til the End",
+          "slug": "friends-til-the-end"
+        },
+        {
+          "name": "Batteries Included",
+          "slug": "batteries-included"
+        }
+      ],
+      "power_name": "Hidey-Ho!",
+      "power_desc": "Slices low in Scamper and stalks from hiding as Chucky."
+    },
+    {
+      "role": "killer",
+      "name": "The Unknown",
+      "slug": "the-unknown",
+      "chapter": "All Things Wicked",
+      "needs_verification": true,
+      "description": "An eerie entity that hinders perception.",
+      "perks": [
+        {
+          "name": "Unbound",
+          "slug": "unbound"
+        },
+        {
+          "name": "Unforeseen",
+          "slug": "unforeseen"
+        },
+        {
+          "name": "Undone",
+          "slug": "undone"
+        }
+      ],
+      "power_name": "Unbound",
+      "power_desc": "Launches a bouncing UVX projectile and teleports to its hallucinations."
+    },
+    {
+      "role": "killer",
+      "name": "The Lich",
+      "slug": "the-lich",
+      "chapter": "Dungeons & Dragons",
+      "needs_verification": true,
+      "description": "Vecna. Casts spells like Flight of the Damned and Mage Hand.",
+      "perks": [
+        {
+          "name": "Weave Attunement",
+          "slug": "weave-attunement"
+        },
+        {
+          "name": "Languid Touch",
+          "slug": "languid-touch"
+        },
+        {
+          "name": "Dark Arrogance",
+          "slug": "dark-arrogance"
+        }
+      ],
+      "power_name": "Vile Darkness",
+      "power_desc": "Casts four D&D spells: Mage Hand, Flight of the Damned, Dispelling Sphere, and Fly."
+    },
+    {
+      "role": "killer",
+      "name": "The Dark Lord",
+      "slug": "the-dark-lord",
+      "chapter": "Castlevania",
+      "needs_verification": true,
+      "description": "Dracula. Shifts forms between vampire, wolf, and bat.",
+      "perks": [
+        {
+          "name": "Dominance",
+          "slug": "dominance"
+        },
+        {
+          "name": "Human Greed",
+          "slug": "human-greed"
+        },
+        {
+          "name": "Hex: Wretched Fate",
+          "slug": "hex-wretched-fate"
+        }
+      ],
+      "power_name": "Vampiric Shift",
+      "power_desc": "Transforms between Vampire, Wolf, and Bat forms, each with unique abilities."
+    },
+    {
+      "role": "killer",
+      "name": "The Houndmaster",
+      "slug": "the-houndmaster",
+      "chapter": "Doomed Course",
+      "needs_verification": true,
+      "description": "Commands a search-and-chase hound. (Recent chapter — verify.)",
+      "perks": [
+        {
+          "name": "All-Shaking Thunder",
+          "slug": "all-shaking-thunder"
+        },
+        {
+          "name": "Scourge Hook: Jagged Compass",
+          "slug": "scourge-hook-jagged-compass"
+        },
+        {
+          "name": "No Quarter",
+          "slug": "no-quarter"
+        }
+      ],
+      "power_name": "Scent of Blood",
+      "power_desc": "Commands the dog Snug to chase, search, and grip Survivors."
+    },
+    {
+      "role": "survivor",
+      "name": "Dwight Fairfield",
+      "slug": "dwight-fairfield",
+      "chapter": "Base Game",
+      "description": "A nervous leader who excels in groups.",
+      "perks": [
+        {
+          "name": "Bond",
+          "slug": "bond"
+        },
+        {
+          "name": "Leader",
+          "slug": "leader"
+        },
+        {
+          "name": "Prove Thyself",
+          "slug": "prove-thyself"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Meg Thomas",
+      "slug": "meg-thomas",
+      "chapter": "Base Game",
+      "description": "An athlete built for speed and escapes.",
+      "perks": [
+        {
+          "name": "Quick & Quiet",
+          "slug": "quick-quiet"
+        },
+        {
+          "name": "Sprint Burst",
+          "slug": "sprint-burst"
+        },
+        {
+          "name": "Adrenaline",
+          "slug": "adrenaline"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Claudette Morel",
+      "slug": "claudette-morel",
+      "chapter": "Base Game",
+      "description": "A botanist focused on healing and stealth.",
+      "perks": [
+        {
+          "name": "Empathy",
+          "slug": "empathy"
+        },
+        {
+          "name": "Botany Knowledge",
+          "slug": "botany-knowledge"
+        },
+        {
+          "name": "Self-Care",
+          "slug": "self-care"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Jake Park",
+      "slug": "jake-park",
+      "chapter": "Base Game",
+      "description": "A self-reliant loner and saboteur.",
+      "perks": [
+        {
+          "name": "Iron Will",
+          "slug": "iron-will"
+        },
+        {
+          "name": "Calm Spirit",
+          "slug": "calm-spirit"
+        },
+        {
+          "name": "Saboteur",
+          "slug": "saboteur"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Nea Karlsson",
+      "slug": "nea-karlsson",
+      "chapter": "Base Game",
+      "description": "A street-smart explorer.",
+      "perks": [
+        {
+          "name": "Balanced Landing",
+          "slug": "balanced-landing"
+        },
+        {
+          "name": "Urban Evasion",
+          "slug": "urban-evasion"
+        },
+        {
+          "name": "Streetwise",
+          "slug": "streetwise"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Laurie Strode",
+      "slug": "laurie-strode",
+      "chapter": "Halloween",
+      "description": "Survivor of Michael Myers.",
+      "perks": [
+        {
+          "name": "Sole Survivor",
+          "slug": "sole-survivor"
+        },
+        {
+          "name": "Object of Obsession",
+          "slug": "object-of-obsession"
+        },
+        {
+          "name": "Decisive Strike",
+          "slug": "decisive-strike"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Ace Visconti",
+      "slug": "ace-visconti",
+      "chapter": "Of Flesh and Mud",
+      "description": "A lucky gambler.",
+      "perks": [
+        {
+          "name": "Open-Handed",
+          "slug": "open-handed"
+        },
+        {
+          "name": "Ace in the Hole",
+          "slug": "ace-in-the-hole"
+        },
+        {
+          "name": "Up the Ante",
+          "slug": "up-the-ante"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Bill Overbeck",
+      "slug": "bill-overbeck",
+      "chapter": "The Left Behind",
+      "description": "A hardened Vietnam veteran.",
+      "perks": [
+        {
+          "name": "Left Behind",
+          "slug": "left-behind"
+        },
+        {
+          "name": "Borrowed Time",
+          "slug": "borrowed-time"
+        },
+        {
+          "name": "Unbreakable",
+          "slug": "unbreakable"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Feng Min",
+      "slug": "feng-min",
+      "chapter": "Spark of Madness",
+      "description": "A competitive e-sports prodigy.",
+      "perks": [
+        {
+          "name": "Technician",
+          "slug": "technician"
+        },
+        {
+          "name": "Lithe",
+          "slug": "lithe"
+        },
+        {
+          "name": "Alert",
+          "slug": "alert"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "David King",
+      "slug": "david-king",
+      "chapter": "A Lullaby for the Dark",
+      "description": "A brawler who thrives on risk.",
+      "perks": [
+        {
+          "name": "We're Gonna Live Forever",
+          "slug": "were-gonna-live-forever"
+        },
+        {
+          "name": "Dead Hard",
+          "slug": "dead-hard"
+        },
+        {
+          "name": "No Mither",
+          "slug": "no-mither"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Quentin Smith",
+      "slug": "quentin-smith",
+      "chapter": "A Nightmare on Elm Street",
+      "description": "Sleep-deprived foe of Freddy.",
+      "perks": [
+        {
+          "name": "Wake Up!",
+          "slug": "wake-up"
+        },
+        {
+          "name": "Pharmacy",
+          "slug": "pharmacy"
+        },
+        {
+          "name": "Vigil",
+          "slug": "vigil"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "David Tapp",
+      "slug": "david-tapp",
+      "chapter": "The Saw Chapter",
+      "description": "A relentless detective.",
+      "perks": [
+        {
+          "name": "Tenacity",
+          "slug": "tenacity"
+        },
+        {
+          "name": "Detective's Hunch",
+          "slug": "detectives-hunch"
+        },
+        {
+          "name": "Stake Out",
+          "slug": "stake-out"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Kate Denson",
+      "slug": "kate-denson",
+      "chapter": "Curtain Call",
+      "description": "A folk musician.",
+      "perks": [
+        {
+          "name": "Dance With Me",
+          "slug": "dance-with-me"
+        },
+        {
+          "name": "Windows of Opportunity",
+          "slug": "windows-of-opportunity"
+        },
+        {
+          "name": "Boil Over",
+          "slug": "boil-over"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Adam Francis",
+      "slug": "adam-francis",
+      "chapter": "Shattered Bloodline",
+      "description": "A teacher and analyst.",
+      "perks": [
+        {
+          "name": "Diversion",
+          "slug": "diversion"
+        },
+        {
+          "name": "Deliverance",
+          "slug": "deliverance"
+        },
+        {
+          "name": "Autodidact",
+          "slug": "autodidact"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Jeff Johansen",
+      "slug": "jeff-johansen",
+      "chapter": "Darkness Among Us",
+      "description": "A tattooed musician.",
+      "perks": [
+        {
+          "name": "Breakdown",
+          "slug": "breakdown"
+        },
+        {
+          "name": "Aftercare",
+          "slug": "aftercare"
+        },
+        {
+          "name": "Distortion",
+          "slug": "distortion"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Jane Romero",
+      "slug": "jane-romero",
+      "chapter": "Demise of the Faithful",
+      "description": "A talk-show host.",
+      "perks": [
+        {
+          "name": "Solidarity",
+          "slug": "solidarity"
+        },
+        {
+          "name": "Poised",
+          "slug": "poised"
+        },
+        {
+          "name": "Head On",
+          "slug": "head-on"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Ash Williams",
+      "slug": "ash-williams",
+      "chapter": "Ash vs Evil Dead",
+      "description": "Veteran demon-slayer.",
+      "perks": [
+        {
+          "name": "Flip-Flop",
+          "slug": "flip-flop"
+        },
+        {
+          "name": "Mettle of Man",
+          "slug": "mettle-of-man"
+        },
+        {
+          "name": "Buckle Up",
+          "slug": "buckle-up"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Nancy Wheeler",
+      "slug": "nancy-wheeler",
+      "chapter": "Stranger Things",
+      "description": "An aspiring journalist.",
+      "perks": [
+        {
+          "name": "Better Together",
+          "slug": "better-together"
+        },
+        {
+          "name": "Fixated",
+          "slug": "fixated"
+        },
+        {
+          "name": "Inner Healing",
+          "slug": "inner-healing"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Steve Harrington",
+      "slug": "steve-harrington",
+      "chapter": "Stranger Things",
+      "description": "A loyal protector.",
+      "perks": [
+        {
+          "name": "Babysitter",
+          "slug": "babysitter"
+        },
+        {
+          "name": "Camaraderie",
+          "slug": "camaraderie"
+        },
+        {
+          "name": "Second Wind",
+          "slug": "second-wind"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Yui Kimura",
+      "slug": "yui-kimura",
+      "chapter": "Cursed Legacy",
+      "description": "A street racer.",
+      "perks": [
+        {
+          "name": "Lucky Break",
+          "slug": "lucky-break"
+        },
+        {
+          "name": "Breakout",
+          "slug": "breakout"
+        },
+        {
+          "name": "Any Means Necessary",
+          "slug": "any-means-necessary"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Zarina Kassir",
+      "slug": "zarina-kassir",
+      "chapter": "Chains of Hate",
+      "needs_verification": true,
+      "description": "An investigative documentarian.",
+      "perks": [
+        {
+          "name": "Off the Record",
+          "slug": "off-the-record"
+        },
+        {
+          "name": "Red Herring",
+          "slug": "red-herring"
+        },
+        {
+          "name": "For the People",
+          "slug": "for-the-people"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Cheryl Mason",
+      "slug": "cheryl-mason",
+      "chapter": "Silent Hill",
+      "description": "Heather Mason of Silent Hill.",
+      "perks": [
+        {
+          "name": "Soul Guard",
+          "slug": "soul-guard"
+        },
+        {
+          "name": "Blood Pact",
+          "slug": "blood-pact"
+        },
+        {
+          "name": "Repressed Alliance",
+          "slug": "repressed-alliance"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Felix Richter",
+      "slug": "felix-richter",
+      "chapter": "Descend Beyond",
+      "description": "An architect.",
+      "perks": [
+        {
+          "name": "Visionary",
+          "slug": "visionary"
+        },
+        {
+          "name": "Desperate Measures",
+          "slug": "desperate-measures"
+        },
+        {
+          "name": "Built to Last",
+          "slug": "built-to-last"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Élodie Rakoto",
+      "slug": "elodie-rakoto",
+      "chapter": "A Binding of Kin",
+      "description": "A paranormal investigator.",
+      "perks": [
+        {
+          "name": "Appraisal",
+          "slug": "appraisal"
+        },
+        {
+          "name": "Deception",
+          "slug": "deception"
+        },
+        {
+          "name": "Power Struggle",
+          "slug": "power-struggle"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Yun-Jin Lee",
+      "slug": "yun-jin-lee",
+      "chapter": "All-Kill",
+      "description": "A music producer.",
+      "perks": [
+        {
+          "name": "Fast Track",
+          "slug": "fast-track"
+        },
+        {
+          "name": "Self-Preservation",
+          "slug": "self-preservation"
+        },
+        {
+          "name": "Smash Hit",
+          "slug": "smash-hit"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Jill Valentine",
+      "slug": "jill-valentine",
+      "chapter": "Resident Evil",
+      "description": "S.T.A.R.S. member.",
+      "perks": [
+        {
+          "name": "Resurgence",
+          "slug": "resurgence"
+        },
+        {
+          "name": "Blast Mine",
+          "slug": "blast-mine"
+        },
+        {
+          "name": "Counterforce",
+          "slug": "counterforce"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Leon S. Kennedy",
+      "slug": "leon-s-kennedy",
+      "chapter": "Resident Evil",
+      "description": "Rookie cop turned agent.",
+      "perks": [
+        {
+          "name": "Bite the Bullet",
+          "slug": "bite-the-bullet"
+        },
+        {
+          "name": "Flashbang",
+          "slug": "flashbang"
+        },
+        {
+          "name": "Rookie Spirit",
+          "slug": "rookie-spirit"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Mikaela Reid",
+      "slug": "mikaela-reid",
+      "chapter": "Hellraiser",
+      "needs_verification": true,
+      "description": "A witchcraft practitioner; introduced Boons.",
+      "perks": [
+        {
+          "name": "Clairvoyance",
+          "slug": "clairvoyance"
+        },
+        {
+          "name": "Boon: Circle of Healing",
+          "slug": "boon-circle-of-healing"
+        },
+        {
+          "name": "Boon: Shadow Step",
+          "slug": "boon-shadow-step"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Jonah Vasquez",
+      "slug": "jonah-vasquez",
+      "chapter": "Portrait of a Murder",
+      "needs_verification": true,
+      "description": "A former CIA cryptographer.",
+      "perks": [
+        {
+          "name": "Boon: Exponential",
+          "slug": "boon-exponential"
+        },
+        {
+          "name": "Corrective Action",
+          "slug": "corrective-action"
+        },
+        {
+          "name": "Overzealous",
+          "slug": "overzealous"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Yoichi Asakawa",
+      "slug": "yoichi-asakawa",
+      "chapter": "Sadako Rising",
+      "needs_verification": true,
+      "description": "A diver linked to the Onryō's curse.",
+      "perks": [
+        {
+          "name": "Empathic Connection",
+          "slug": "empathic-connection"
+        },
+        {
+          "name": "Parental Guidance",
+          "slug": "parental-guidance"
+        },
+        {
+          "name": "Boon: Dark Theory",
+          "slug": "boon-dark-theory"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Haddie Kaur",
+      "slug": "haddie-kaur",
+      "chapter": "Roots of Dread",
+      "needs_verification": true,
+      "description": "A paranormal podcaster.",
+      "perks": [
+        {
+          "name": "Inner Focus",
+          "slug": "inner-focus"
+        },
+        {
+          "name": "Overcome",
+          "slug": "overcome"
+        },
+        {
+          "name": "Residual Manifest",
+          "slug": "residual-manifest"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Ada Wong",
+      "slug": "ada-wong",
+      "chapter": "Resident Evil: PROJECT W",
+      "needs_verification": true,
+      "description": "A mysterious agent.",
+      "perks": [
+        {
+          "name": "Wiretap",
+          "slug": "wiretap"
+        },
+        {
+          "name": "Reactive Healing",
+          "slug": "reactive-healing"
+        },
+        {
+          "name": "Low Profile",
+          "slug": "low-profile"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Rebecca Chambers",
+      "slug": "rebecca-chambers",
+      "chapter": "Resident Evil: PROJECT W",
+      "needs_verification": true,
+      "description": "S.T.A.R.S. field medic.",
+      "perks": [
+        {
+          "name": "Better Than New",
+          "slug": "better-than-new"
+        },
+        {
+          "name": "Hyperfocus",
+          "slug": "hyperfocus"
+        },
+        {
+          "name": "Reassurance",
+          "slug": "reassurance"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Vittorio Toscano",
+      "slug": "vittorio-toscano",
+      "chapter": "Forged in Fog",
+      "needs_verification": true,
+      "description": "An ancient wanderer of the Fog.",
+      "perks": [
+        {
+          "name": "Potential Energy",
+          "slug": "potential-energy"
+        },
+        {
+          "name": "Fogwise",
+          "slug": "fogwise"
+        },
+        {
+          "name": "Quick Gambit",
+          "slug": "quick-gambit"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Gabriel Soma",
+      "slug": "gabriel-soma",
+      "chapter": "End Transmission",
+      "needs_verification": true,
+      "description": "A resourceful engineer.",
+      "perks": [
+        {
+          "name": "Made for This",
+          "slug": "made-for-this"
+        },
+        {
+          "name": "Troubleshooter",
+          "slug": "troubleshooter"
+        },
+        {
+          "name": "Background Player",
+          "slug": "background-player"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Ellen Ripley",
+      "slug": "ellen-ripley",
+      "chapter": "Alien",
+      "needs_verification": true,
+      "description": "Warrant officer of the Nostromo.",
+      "perks": [
+        {
+          "name": "Chemical Trap",
+          "slug": "chemical-trap"
+        },
+        {
+          "name": "Lucky Star",
+          "slug": "lucky-star"
+        },
+        {
+          "name": "Hardened",
+          "slug": "hardened"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Nicolas Cage",
+      "slug": "nicolas-cage",
+      "chapter": "Nicolas Cage",
+      "needs_verification": true,
+      "description": "Himself.",
+      "perks": [
+        {
+          "name": "Dramaturgy",
+          "slug": "dramaturgy"
+        },
+        {
+          "name": "Plot Twist",
+          "slug": "plot-twist"
+        },
+        {
+          "name": "Scene Partner",
+          "slug": "scene-partner"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Alan Wake",
+      "slug": "alan-wake",
+      "chapter": "Alan Wake",
+      "needs_verification": true,
+      "description": "A writer trapped in his own story.",
+      "perks": [
+        {
+          "name": "Champion of Light",
+          "slug": "champion-of-light"
+        },
+        {
+          "name": "Boon: Illumination",
+          "slug": "boon-illumination"
+        },
+        {
+          "name": "Deadline",
+          "slug": "deadline"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Sable Ward",
+      "slug": "sable-ward",
+      "chapter": "All Things Wicked",
+      "needs_verification": true,
+      "description": "A goth occultist searching for a friend.",
+      "perks": [
+        {
+          "name": "Strength in Shadows",
+          "slug": "strength-in-shadows"
+        },
+        {
+          "name": "Wicked",
+          "slug": "wicked"
+        },
+        {
+          "name": "Invocation: Weaving Spiders",
+          "slug": "invocation-weaving-spiders"
+        }
+      ]
+    },
+    {
+      "role": "survivor",
+      "name": "Thalita Lyra",
+      "slug": "thalita-lyra",
+      "chapter": "Tools of Torment",
+      "needs_verification": true,
+      "description": "Sibling pair with Renato. (Verify perks.)",
+      "perks": []
+    },
+    {
+      "role": "survivor",
+      "name": "Renato Lyra",
+      "slug": "renato-lyra",
+      "chapter": "Tools of Torment",
+      "needs_verification": true,
+      "description": "Sibling pair with Thalita. (Verify perks.)",
+      "perks": []
+    },
+    {
+      "role": "survivor",
+      "name": "Lara Croft",
+      "slug": "lara-croft",
+      "chapter": "Tomb Raider",
+      "needs_verification": true,
+      "description": "The famed adventurer. (Verify perks.)",
+      "perks": []
+    },
+    {
+      "role": "survivor",
+      "name": "Trevor Belmont",
+      "slug": "trevor-belmont",
+      "chapter": "Castlevania",
+      "needs_verification": true,
+      "description": "A monster hunter of the Belmont clan. (Verify perks.)",
+      "perks": []
+    },
+    {
+      "role": "killer",
+      "name": "The Ghoul",
+      "slug": "the-ghoul",
+      "chapter": "Tokyo Ghoul",
+      "needs_verification": true,
+      "description": "Ken Kaneki. Propels across the map with Kagune tentacles.",
+      "perks": [
+        {
+          "name": "Hex: Nothing but Misery",
+          "slug": "hex-nothing-but-misery"
+        },
+        {
+          "name": "Forever Entwined",
+          "slug": "forever-entwined"
+        },
+        {
+          "name": "None Are Free",
+          "slug": "none-are-free"
+        }
+      ],
+      "power_name": "One-Eyed Terror",
+      "power_desc": "Leaps with Kagune tentacles to traverse and overwhelm Survivors."
+    },
+    {
+      "role": "killer",
+      "name": "The Animatronic",
+      "slug": "the-animatronic",
+      "chapter": "Five Nights at Freddy's",
+      "needs_verification": true,
+      "description": "Springtrap. Possessed animatronic.",
+      "perks": [
+        {
+          "name": "Help Wanted",
+          "slug": "help-wanted"
+        },
+        {
+          "name": "Phantom Fear",
+          "slug": "phantom-fear"
+        },
+        {
+          "name": "Haywire",
+          "slug": "haywire"
+        }
+      ],
+      "power_name": "Fazbear's Fright",
+      "power_desc": "Throws an embedding fire axe and travels between security doors."
+    },
+    {
+      "role": "killer",
+      "name": "The Krasue",
+      "slug": "the-krasue",
+      "needs_verification": true,
+      "description": "Floating spirit of Thai folklore.",
+      "perks": [
+        {
+          "name": "Wandering Eye",
+          "slug": "wandering-eye"
+        },
+        {
+          "name": "Hex: Overture of Doom",
+          "slug": "hex-overture-of-doom"
+        }
+      ],
+      "power_name": "Unbodied Flesh",
+      "power_desc": "Detaches into a floating head; whips and infects Survivors with the Leeching Gland."
+    },
+    {
+      "role": "killer",
+      "name": "The First",
+      "slug": "the-first",
+      "needs_verification": true,
+      "description": "Original killer.",
+      "perks": [
+        {
+          "name": "Turn Back The Clock",
+          "slug": "turn-back-the-clock"
+        },
+        {
+          "name": "Secret Project",
+          "slug": "secret-project"
+        },
+        {
+          "name": "Hex: Hive Mind",
+          "slug": "hex-hive-mind"
+        }
+      ],
+      "power_name": "Test Subject #001",
+      "power_desc": "Attacks from the Upside Down to apply Worldbreaker tokens and damage Survivors."
+    }
+  ]
+}

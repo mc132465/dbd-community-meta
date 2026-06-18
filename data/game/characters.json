@@ -1,0 +1,58 @@
+[
+  {
+    "role": "killer",
+    "name": "The Hollow",
+    "slug": "the-hollow",
+    "title": "the Forgotten",
+    "lore": "Placeholder lore for development. This is original sample content and does not represent any real game character.",
+    "power_name": "Dwindling Light",
+    "power_desc": "Placeholder power description used to test killer detail pages.",
+    "image_url": null,
+    "home_realm": "Hollow Reaches",
+    "release_patch_version": "1.0.0",
+    "source": "placeholder",
+    "external_id": "ph-killer-001"
+  },
+  {
+    "role": "killer",
+    "name": "The Warden",
+    "slug": "the-warden",
+    "title": "the Keeper",
+    "lore": "Placeholder lore for development. Original sample content only.",
+    "power_name": "Iron Vigil",
+    "power_desc": "Placeholder power description used to test killer detail pages.",
+    "image_url": null,
+    "home_realm": "Mire Hollow",
+    "release_patch_version": "1.0.0",
+    "source": "placeholder",
+    "external_id": "ph-killer-002"
+  },
+  {
+    "role": "survivor",
+    "name": "Mara Vex",
+    "slug": "mara-vex",
+    "title": "the Engineer",
+    "lore": "Placeholder lore for development. Original sample content only.",
+    "power_name": null,
+    "power_desc": null,
+    "image_url": null,
+    "home_realm": null,
+    "release_patch_version": "1.0.0",
+    "source": "placeholder",
+    "external_id": "ph-surv-001"
+  },
+  {
+    "role": "survivor",
+    "name": "Tomas Reed",
+    "slug": "tomas-reed",
+    "title": "the Medic",
+    "lore": "Placeholder lore for development. Original sample content only.",
+    "power_name": null,
+    "power_desc": null,
+    "image_url": null,
+    "home_realm": null,
+    "release_patch_version": "1.1.0",
+    "source": "placeholder",
+    "external_id": "ph-surv-002"
+  }
+]

@@ -1,0 +1,3 @@
+# Local asset storage (Path B). Imported icons land here as:
+#   public/assets/<pack>/<category>/<slug>.png  ->  served at /assets/<pack>/<category>/<slug>.png
+# Populated by `pnpm import:assets`. Safe to delete contents and re-import.

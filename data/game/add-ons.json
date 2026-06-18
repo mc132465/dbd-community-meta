@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Bent Hook",
+    "slug": "bent-hook",
+    "rarity": "uncommon",
+    "applies_to": "killer_power",
+    "parent_character_slug": "the-hollow",
+    "parent_item_slug": null,
+    "description": "Placeholder killer power add-on for development.",
+    "icon_url": null,
+    "source": "placeholder",
+    "external_id": "ph-addon-001"
+  },
+  {
+    "name": "Rusted Cog",
+    "slug": "rusted-cog",
+    "rarity": "common",
+    "applies_to": "item",
+    "parent_character_slug": null,
+    "parent_item_slug": "repair-kit",
+    "description": "Placeholder item add-on for development.",
+    "icon_url": null,
+    "source": "placeholder",
+    "external_id": "ph-addon-002"
+  },
+  {
+    "name": "Cleansing Gauze",
+    "slug": "cleansing-gauze",
+    "rarity": "rare",
+    "applies_to": "item",
+    "parent_character_slug": null,
+    "parent_item_slug": "field-medkit",
+    "description": "Placeholder item add-on for development.",
+    "icon_url": null,
+    "source": "placeholder",
+    "external_id": "ph-addon-003"
+  }
+]

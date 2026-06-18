@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 12% 96%;
+    --foreground: 240 10% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 8%;
+
+    --primary: 0 62% 42%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 5% 92%;
+    --secondary-foreground: 240 10% 12%;
+
+    --muted: 240 5% 92%;
+    --muted-foreground: 240 4% 42%;
+
+    --accent: 240 5% 90%;
+    --accent-foreground: 240 10% 12%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 6% 86%;
+    --input: 240 6% 86%;
+    --ring: 0 62% 45%;
+
+    --radius: 0.5rem;
+
+    /* Runtime-themeable tokens (overridden at request time from site_settings).
+       Mode-independent in v1; defaults mirror the original palette. */
+    --button: 0 62% 42%;
+    --link: 0 62% 42%;
+    --link-hover: 0 62% 42%;
+
+    --tier-s: 0 72% 51%;
+    --tier-a: 25 95% 53%;
+    --tier-b: 38 92% 50%;
+    --tier-c: 142 71% 36%;
+    --tier-d: 217 91% 53%;
+    --tier-f: 240 4% 34%;
+
+    --difficulty-beginner: 142 71% 45%;
+    --difficulty-intermediate: 38 92% 50%;
+    --difficulty-advanced: 0 84% 60%;
+
+    --badge-pending: 48 96% 49%;
+    --badge-approved: 142 71% 45%;
+    --badge-rejected: 0 72% 45%;
+    --badge-draft: 240 5% 65%;
+    --badge-archived: 240 4% 46%;
+  }
+
+  /* Dark is the default brand theme (set in the theme provider). */
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 40 6% 90%;
+
+    --card: 240 8% 7%;
+    --card-foreground: 40 6% 90%;
+
+    --popover: 240 8% 7%;
+    --popover-foreground: 40 6% 90%;
+
+    --primary: 0 62% 45%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 6% 14%;
+    --secondary-foreground: 40 6% 90%;
+
+    --muted: 240 6% 12%;
+    --muted-foreground: 240 5% 60%;
+
+    --accent: 240 6% 16%;
+    --accent-foreground: 40 6% 92%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 6% 16%;
+    --input: 240 6% 18%;
+    --ring: 0 62% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
