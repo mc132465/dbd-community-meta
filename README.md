@@ -143,7 +143,7 @@ See [`docs/`](docs/) for the asset-import, admin, backup/restore, and update gui
 
 ## Screenshots
 
-> _Placeholders — add real screenshots under `docs/screenshots/` and link them here._
+> _No screenshots are included in this patch. Screenshots will be added under `docs/screenshots/` in a future update._
 
 | | |
 |---|---|
